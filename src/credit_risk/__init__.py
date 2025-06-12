@@ -3,7 +3,7 @@ Credit Risk Assessment System
 A comprehensive credit risk assessment system for individual and corporate applications.
 """
 
-__version__ = "0.1.1"
+__version__ = "1.2.0"
 __author__ = "Omoshola Owolabi"
 __email__ = "omoshola@example.com"
 __description__ = "A comprehensive credit risk assessment system"

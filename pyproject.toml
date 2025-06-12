@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "credit-risk-creditum"
-version = "0.1.1"
+version = "1.2.0"
 description = "A comprehensive credit risk assessment system"
 readme = "README.md"
 authors = [{name = "Omoshola Owolabi", email = "omoshola@example.com"}]
