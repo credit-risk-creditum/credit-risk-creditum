@@ -23,7 +23,7 @@ def read_requirements():
 
 setup(
     name="credit-risk-creditum",
-    version="0.1.1",
+    version="1.2.0",
     author="Omoshola Owolabi",
     author_email="owolabi.omoshola@outlook.com",
     description="A comprehensive credit risk assessment system",
