@@ -4,11 +4,6 @@ build:
   os: ubuntu-22.04
   tools:
     python: "3.11"
-  jobs:
-    post_create_environment:
-      - python -m pip install --upgrade pip
-    post_install:
-      - python -m pip install .[dev]
 
 python:
   install:
@@ -18,9 +13,8 @@ python:
 
 sphinx:
   configuration: docs/conf.py
-  fail_on_warning: false
+  fail_on_warning: true
 
 formats:
   - pdf
   - htmlzip
-  - epub

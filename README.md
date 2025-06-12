@@ -244,7 +244,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **Omoshola Owolabi**
 - 🎓 Analytics Engineer, Supply Chain & Finance AI/ML Researcher
 - 🔗 LinkedIn: [linkedin.com/in/omosholaowolabi](https://linkedin.com/in/omosholaowolabi)
-- 📧 Email: omoshola@example.com
+- 📧 Email: owolabi.omoshola@outlook.com
 - 🐙 GitHub: [@credit-risk-creditum](https://github.com/credit-risk-creditum)
 
 ## 🙏 Acknowledgments
