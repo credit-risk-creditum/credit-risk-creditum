@@ -1,0 +1,31 @@
+name: Publish to PyPI
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Set up Python
+      uses: actions/setup-python@v3
+      with:
+        python-version: '3.x'
+    
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install build twine
+    
+    - name: Build package
+      run: python -m build
+    
+    - name: Publish to PyPI
+      uses: pypa/gh-action-pypi-publish@release/v1
+      with:
+        user: __token__
+        password: ${{ pypi-AgEIcHlwaS5vcmcCJDJmMjY0NDc0LTU2MDUtNGM4Zi05NDM2LWZkMjIyNzkyMmUyMAACKlszLCJlMGM1ZTYwMC1mYzBmLTRkODgtYTBjZC00ZWQyMWJiNTViMDgiXQAABiCswsgA6_8jtNQ1-cAmaOJz_EoiYFxfCXBNHGcz0et8gw }}
